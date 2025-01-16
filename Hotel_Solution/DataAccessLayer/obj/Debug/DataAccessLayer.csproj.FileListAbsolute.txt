@@ -1,0 +1,6 @@
+C:\Users\abdel\Desktop\Hotel_Project\Hotel_Solution\DataAccessLayer\bin\Debug\RoomDataAccessLayer.dll
+C:\Users\abdel\Desktop\Hotel_Project\Hotel_Solution\DataAccessLayer\bin\Debug\RoomDataAccessLayer.pdb
+C:\Users\abdel\Desktop\Hotel_Project\Hotel_Solution\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\abdel\Desktop\Hotel_Project\Hotel_Solution\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\abdel\Desktop\Hotel_Project\Hotel_Solution\DataAccessLayer\obj\Debug\RoomDataAccessLayer.dll
+C:\Users\abdel\Desktop\Hotel_Project\Hotel_Solution\DataAccessLayer\obj\Debug\RoomDataAccessLayer.pdb

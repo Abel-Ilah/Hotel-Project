@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7EDFE7B8-6BF3-4D6B-85E1-1E00F0273FE7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>hotel</RootNamespace>
+    <AssemblyName>hotel</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\hp\Desktop\New folder\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>D8EC5552212EB96AEE39CBF483F4737B64D15B67</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>hotelUserInterface_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\Bookigs\Form_AddNewBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Bookigs\Form_AddNewBooking.Designer.cs">
+      <DependentUpon>Form_AddNewBooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Guests\Form_AddOrUpdateGuest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Guests\Form_AddOrUpdateGuest.Designer.cs">
+      <DependentUpon>Form_AddOrUpdateGuest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Bookigs\Form_BookingsDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Bookigs\Form_BookingsDetails.Designer.cs">
+      <DependentUpon>Form_BookingsDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Bookigs\Form_CompleteBookingMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Bookigs\Form_CompleteBookingMessage.Designer.cs">
+      <DependentUpon>Form_CompleteBookingMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Guests\Form_GuestDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Guests\Form_GuestDetails.Designer.cs">
+      <DependentUpon>Form_GuestDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rooms\Form_RoomsDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rooms\Form_RoomsDetails.Designer.cs">
+      <DependentUpon>Form_RoomsDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Guests\Form_FindGuest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Guests\Form_FindGuest.Designer.cs">
+      <DependentUpon>Form_FindGuest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rooms\Form_RoomTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rooms\Form_RoomTypes.Designer.cs">
+      <DependentUpon>Form_RoomTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rooms\Form_ShowRoomDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rooms\Form_ShowRoomDetails.Designer.cs">
+      <DependentUpon>Form_ShowRoomDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rooms\Form_UpdateRoomTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rooms\Form_UpdateRoomTypes.Designer.cs">
+      <DependentUpon>Form_UpdateRoomTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User_Controls\UC_BookingHistory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\UC_BookingHistory.Designer.cs">
+      <DependentUpon>UC_BookingHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\UC_GuestDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\UC_GuestDetails.Designer.cs">
+      <DependentUpon>UC_GuestDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\UC_GuestDetailsWithFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\UC_GuestDetailsWithFilter.Designer.cs">
+      <DependentUpon>UC_GuestDetailsWithFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\UC_Revenue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\UC_Revenue.Designer.cs">
+      <DependentUpon>UC_Revenue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\UC_RoomDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\UC_RoomDetails.Designer.cs">
+      <DependentUpon>UC_RoomDetails.cs</DependentUpon>
+    </Compile>
+    <None Include="Resources\hotelPicture.png" />
+    <None Include="Resources\hotel-building.png" />
+    <None Include="Resources\Settings_30.png" />
+    <None Include="Resources\arrowToDown.png" />
+    <EmbeddedResource Include="Forms\Bookigs\Form_AddNewBooking.resx">
+      <DependentUpon>Form_AddNewBooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Guests\Form_AddOrUpdateGuest.resx">
+      <DependentUpon>Form_AddOrUpdateGuest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Bookigs\Form_BookingsDetails.resx">
+      <DependentUpon>Form_BookingsDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Bookigs\Form_CompleteBookingMessage.resx">
+      <DependentUpon>Form_CompleteBookingMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Guests\Form_GuestDetails.resx">
+      <DependentUpon>Form_GuestDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rooms\Form_RoomsDetails.resx">
+      <DependentUpon>Form_RoomsDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Guests\Form_FindGuest.resx">
+      <DependentUpon>Form_FindGuest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rooms\Form_RoomTypes.resx">
+      <DependentUpon>Form_RoomTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rooms\Form_ShowRoomDetails.resx">
+      <DependentUpon>Form_ShowRoomDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rooms\Form_UpdateRoomTypes.resx">
+      <DependentUpon>Form_UpdateRoomTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="User_Controls\UC_BookingHistory.resx">
+      <DependentUpon>UC_BookingHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\UC_GuestDetails.resx">
+      <DependentUpon>UC_GuestDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\UC_GuestDetailsWithFilter.resx">
+      <DependentUpon>UC_GuestDetailsWithFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\UC_Revenue.resx">
+      <DependentUpon>UC_Revenue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\UC_RoomDetails.resx">
+      <DependentUpon>UC_RoomDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="App.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="hotelUserInterface_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room30_30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow30_30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\booking-Canceled_ContextMinueStrip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\booking-confirmed_ContexMinueStrip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guest_ContextMenueStrip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updateRoom_ContextMenueStrip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Male.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\female.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Number 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Phone 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\International 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Country 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Person 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Man 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Woman 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar 321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel32 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddNewPerson.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addPerson.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updatePerson.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Room.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boooking30_30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Room2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add Person 72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
+      <Project>{ef1a2a41-d6b9-4b54-958d-c0efef314dd6}</Project>
+      <Name>BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{87f6cfe7-92c2-4dc3-b4da-cd8d51ca7614}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

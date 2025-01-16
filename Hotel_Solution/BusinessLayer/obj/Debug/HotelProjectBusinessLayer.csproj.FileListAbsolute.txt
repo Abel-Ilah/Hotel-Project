@@ -1,0 +1,18 @@
+C:\Users\hp\source\repos\HetelProjectBusinessLayer\bin\Debug\HetelProjectBusinessLayer.dll
+C:\Users\hp\source\repos\HetelProjectBusinessLayer\bin\Debug\HetelProjectBusinessLayer.pdb
+C:\Users\hp\source\repos\HetelProjectBusinessLayer\bin\Debug\RoomDataAccessLayer.dll
+C:\Users\hp\source\repos\HetelProjectBusinessLayer\bin\Debug\RoomDataAccessLayer.pdb
+C:\Users\hp\source\repos\HetelProjectBusinessLayer\obj\Debug\HotelProjectBusinessLayer.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\HetelProjectBusinessLayer\obj\Debug\HotelProjectBusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\HetelProjectBusinessLayer\obj\Debug\HetelProjectBusinessLayer.dll
+C:\Users\hp\source\repos\HetelProjectBusinessLayer\obj\Debug\HetelProjectBusinessLayer.pdb
+C:\Users\hp\source\repos\HetelProjectBusinessLayer\obj\Debug\HotelPro.D4598E23.Up2Date
+E:\my projects\projects\HetelProjectBusinessLayer\bin\Debug\HetelProjectBusinessLayer.dll
+E:\my projects\projects\HetelProjectBusinessLayer\bin\Debug\HetelProjectBusinessLayer.pdb
+E:\my projects\projects\HetelProjectBusinessLayer\bin\Debug\RoomDataAccessLayer.dll
+E:\my projects\projects\HetelProjectBusinessLayer\bin\Debug\RoomDataAccessLayer.pdb
+E:\my projects\projects\HetelProjectBusinessLayer\obj\Debug\HotelProjectBusinessLayer.csproj.AssemblyReference.cache
+E:\my projects\projects\HetelProjectBusinessLayer\obj\Debug\HotelProjectBusinessLayer.csproj.CoreCompileInputs.cache
+E:\my projects\projects\HetelProjectBusinessLayer\obj\Debug\HotelPro.D4598E23.Up2Date
+E:\my projects\projects\HetelProjectBusinessLayer\obj\Debug\HetelProjectBusinessLayer.dll
+E:\my projects\projects\HetelProjectBusinessLayer\obj\Debug\HetelProjectBusinessLayer.pdb

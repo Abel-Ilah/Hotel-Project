@@ -1,0 +1,9 @@
+C:\Users\abdel\Desktop\Hotel_Project\Hotel_Solution\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\abdel\Desktop\Hotel_Project\Hotel_Solution\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\abdel\Desktop\Hotel_Project\Hotel_Solution\BusinessLayer\obj\Debug\HetelProjectBusinessLayer.dll
+C:\Users\abdel\Desktop\Hotel_Project\Hotel_Solution\BusinessLayer\obj\Debug\HetelProjectBusinessLayer.pdb
+C:\Users\abdel\Desktop\Hotel_Project\Hotel_Solution\BusinessLayer\bin\Debug\HetelProjectBusinessLayer.dll
+C:\Users\abdel\Desktop\Hotel_Project\Hotel_Solution\BusinessLayer\bin\Debug\HetelProjectBusinessLayer.pdb
+C:\Users\abdel\Desktop\Hotel_Project\Hotel_Solution\BusinessLayer\bin\Debug\RoomDataAccessLayer.dll
+C:\Users\abdel\Desktop\Hotel_Project\Hotel_Solution\BusinessLayer\bin\Debug\RoomDataAccessLayer.pdb
+C:\Users\abdel\Desktop\Hotel_Project\Hotel_Solution\BusinessLayer\obj\Debug\Business.EA331CBA.Up2Date

@@ -1,0 +1,12 @@
+C:\Users\hp\source\repos\RoomDataAccessLayer\bin\Debug\RoomDataAccessLayer.dll
+C:\Users\hp\source\repos\RoomDataAccessLayer\bin\Debug\RoomDataAccessLayer.pdb
+C:\Users\hp\source\repos\RoomDataAccessLayer\obj\Debug\HotelProjectDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\RoomDataAccessLayer\obj\Debug\HotelProjectDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\RoomDataAccessLayer\obj\Debug\RoomDataAccessLayer.dll
+C:\Users\hp\source\repos\RoomDataAccessLayer\obj\Debug\RoomDataAccessLayer.pdb
+E:\my projects\projects\RoomDataAccessLayer\bin\Debug\RoomDataAccessLayer.dll
+E:\my projects\projects\RoomDataAccessLayer\bin\Debug\RoomDataAccessLayer.pdb
+E:\my projects\projects\RoomDataAccessLayer\obj\Debug\HotelProjectDataAccessLayer.csproj.AssemblyReference.cache
+E:\my projects\projects\RoomDataAccessLayer\obj\Debug\HotelProjectDataAccessLayer.csproj.CoreCompileInputs.cache
+E:\my projects\projects\RoomDataAccessLayer\obj\Debug\RoomDataAccessLayer.dll
+E:\my projects\projects\RoomDataAccessLayer\obj\Debug\RoomDataAccessLayer.pdb

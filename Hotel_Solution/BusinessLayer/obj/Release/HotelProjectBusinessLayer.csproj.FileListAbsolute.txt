@@ -1,0 +1,9 @@
+C:\Users\hp\source\repos\HetelProjectBusinessLayer\bin\Release\HetelProjectBusinessLayer.dll
+C:\Users\hp\source\repos\HetelProjectBusinessLayer\bin\Release\HetelProjectBusinessLayer.pdb
+C:\Users\hp\source\repos\HetelProjectBusinessLayer\bin\Release\RoomDataAccessLayer.dll
+C:\Users\hp\source\repos\HetelProjectBusinessLayer\bin\Release\RoomDataAccessLayer.pdb
+C:\Users\hp\source\repos\HetelProjectBusinessLayer\obj\Release\HotelProjectBusinessLayer.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\HetelProjectBusinessLayer\obj\Release\HotelProjectBusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\HetelProjectBusinessLayer\obj\Release\HotelProjectBusinessLayer.csproj.CopyComplete
+C:\Users\hp\source\repos\HetelProjectBusinessLayer\obj\Release\HetelProjectBusinessLayer.dll
+C:\Users\hp\source\repos\HetelProjectBusinessLayer\obj\Release\HetelProjectBusinessLayer.pdb
