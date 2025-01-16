@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\abdel\\Desktop\\Hotel_Project\\Hotel_Solution\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{EF1A2A41-D6B9-4B54-958D-C0EFEF314DD6}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\abdel\\desktop\\hotel_project\\hotel_solution\\businesslayer\\entities\\clsbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF1A2A41-D6B9-4B54-958D-C0EFEF314DD6}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\clsbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87F6CFE7-92C2-4DC3-B4DA-CD8D51CA7614}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\abdel\\desktop\\hotel_project\\hotel_solution\\dataaccesslayer\\dtos\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87F6CFE7-92C2-4DC3-B4DA-CD8D51CA7614}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dtos\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EDFE7B8-6BF3-4D6B-85E1-1E00F0273FE7}|UserInterface\\UserInterface.csproj|c:\\users\\abdel\\desktop\\hotel_project\\hotel_solution\\userinterface\\user_controls\\uc_guestdetailswithfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7EDFE7B8-6BF3-4D6B-85E1-1E00F0273FE7}|UserInterface\\UserInterface.csproj|solutionrelative:userinterface\\user_controls\\uc_guestdetailswithfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,44 +30,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "clsBooking.cs",
-              "DocumentMoniker": "C:\\Users\\abdel\\Desktop\\Hotel_Project\\Hotel_Solution\\BusinessLayer\\Entities\\clsBooking.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Entities\\clsBooking.cs",
-              "ToolTip": "C:\\Users\\abdel\\Desktop\\Hotel_Project\\Hotel_Solution\\BusinessLayer\\Entities\\clsBooking.cs*",
-              "RelativeToolTip": "BusinessLayer\\Entities\\clsBooking.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAYwE0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T11:09:38.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RoomDTO.cs",
-              "DocumentMoniker": "C:\\Users\\abdel\\Desktop\\Hotel_Project\\Hotel_Solution\\DataAccessLayer\\DTOs\\RoomDTO.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\DTOs\\RoomDTO.cs",
-              "ToolTip": "C:\\Users\\abdel\\Desktop\\Hotel_Project\\Hotel_Solution\\DataAccessLayer\\DTOs\\RoomDTO.cs",
-              "RelativeToolTip": "DataAccessLayer\\DTOs\\RoomDTO.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAswB4AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T10:50:28.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UC_GuestDetailsWithFilter.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\abdel\\Desktop\\Hotel_Project\\Hotel_Solution\\UserInterface\\User_Controls\\UC_GuestDetailsWithFilter.cs",
-              "RelativeDocumentMoniker": "UserInterface\\User_Controls\\UC_GuestDetailsWithFilter.cs",
-              "ToolTip": "C:\\Users\\abdel\\Desktop\\Hotel_Project\\Hotel_Solution\\UserInterface\\User_Controls\\UC_GuestDetailsWithFilter.cs [Design]",
-              "RelativeToolTip": "UserInterface\\User_Controls\\UC_GuestDetailsWithFilter.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T10:32:41.087Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }
