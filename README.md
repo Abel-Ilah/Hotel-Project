@@ -1,5 +1,5 @@
 
----------------------------------------------------------- Hotel Management System (HMS) ----------------------------------------------------------
+------------------------------------------- Hotel Management System (HMS) -------------------------------------------
 
 The Hotel Management System (HMS) is an offline comprehensive Windows Forms-based application designed to streamline and automate the management of hotel operations. 
 It enables hotel staff to efficiently manage reservations, check-ins, check-outs, room assignments.
